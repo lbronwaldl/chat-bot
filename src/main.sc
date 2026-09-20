@@ -1,14 +1,14 @@
 theme: /
 
-    state: Hello
+    state: hello
         intent!: /hello
         a: Привет! Я бот-помощник. Я могу рассказать о погоде и курсах валют.
 
-    state: Weather
+    state: weather
         intent!: /weather
         a: Сейчас я могу рассказать о прогнозе погоды.
 
-    state: Currency
+    state: currency
         intent!: /currency
         a: Сейчас я могу рассказать о курсах валют.
 
