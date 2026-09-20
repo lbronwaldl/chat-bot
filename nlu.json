@@ -23,26 +23,79 @@
     }
   },
   "intents" : [ {
-    "path" : "/пока",
+    "path" : "/currency",
+    "answer" : "Сейчас я могу рассказать о курсах валют.",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {
-      "text" : "пока"
+      "text" : "курс валют"
+    }, {
+      "text" : "какой курс валют"
+    }, {
+      "text" : "курс доллара"
+    }, {
+      "text" : "курс евро"
+    }, {
+      "text" : "сколько стоит доллар"
+    }, {
+      "text" : "сколько стоит евро"
+    }, {
+      "text" : "узнать курс валют"
+    }, {
+      "text" : "какой сейчас курс валют"
     } ],
     "classificationRules" : {
       "refs" : [ ]
     },
+    "patterns" : [ ],
     "priority" : 0
   }, {
-    "path" : "/привет",
+    "path" : "/hello",
+    "answer" : "Привет! Я бот-помощник. Я могу рассказать о погоде и курсах валют.",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {
       "text" : "привет"
+    }, {
+      "text" : "здравствуйте"
+    }, {
+      "text" : "добрый день"
+    }, {
+      "text" : "добрый вечер"
+    }, {
+      "text" : "хай"
     } ],
     "classificationRules" : {
       "refs" : [ ]
     },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/weather",
+    "answer" : "Сейчас я могу рассказать о прогнозе погоды.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "погода"
+    }, {
+      "text" : "какая погода"
+    }, {
+      "text" : "какая сейчас погода"
+    }, {
+      "text" : "расскажи о погоде"
+    }, {
+      "text" : "что с погодой"
+    }, {
+      "text" : "прогноз погоды"
+    }, {
+      "text" : "хочу узнать погоду"
+    }, {
+      "text" : "какая погода сегодня"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
     "priority" : 0
   } ],
   "entities" : [ ],
